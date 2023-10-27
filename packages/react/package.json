@@ -15,8 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/ts-config": "*",
     "@ignite-ui/tokens": "*",
+    "@ignite-ui/ts-config": "*",
     "@types/react": "^18.2.30",
     "@types/react-dom": "^18.2.14",
     "react": "^18.2.0",
@@ -24,6 +24,8 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.8"
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@stitches/react": "^1.2.8",
+    "phosphor-react": "^1.4.1"
   }
 }
