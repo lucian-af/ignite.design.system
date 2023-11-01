@@ -2,7 +2,7 @@ import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {
-  title: 'Forms/Text Input',
+  title: 'Form/Text Input',
   component: TextInput,
   args: {},
   decorators: [
@@ -17,7 +17,7 @@ export default {
             width: '450px',
           }}
         >
-          <Text size="sm"> E-mail</Text>
+          <Text size="sm">E-mail</Text>
           {Story()}
         </Box>
       )
