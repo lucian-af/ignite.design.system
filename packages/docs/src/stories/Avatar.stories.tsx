@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/lucian-af.png',
     alt: 'Lucian AF',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Default: StoryObj<AvatarProps> = {}
