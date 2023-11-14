@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading, HeadingProps } from '@laf-ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {
@@ -11,6 +11,12 @@ export default {
   argTypes: {
     size: {
       options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'select',
+      },
+    },
+    as: {
+      options: ['h1', 'h2', 'h3', 'h4', 'h5'],
       control: {
         type: 'select',
       },

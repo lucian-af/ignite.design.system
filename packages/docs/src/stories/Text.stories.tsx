@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@ignite-ui/react'
+import { Text, TextProps } from '@laf-ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {
@@ -26,6 +26,12 @@ export default {
         '8xl',
         '9xl',
       ],
+      control: {
+        type: 'select',
+      },
+    },
+    as: {
+      options: ['label', 'p', 'span', 'i', 'strong', 'small'],
       control: {
         type: 'select',
       },
