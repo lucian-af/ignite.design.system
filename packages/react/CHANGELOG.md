@@ -1,5 +1,14 @@
 # @laf.ui/react
 
+## 0.2.0
+
+### Minor Changes
+
+- - Novo componente adicionado: Tooltip
+  - Ajustes finos de estilo nos componentes:
+    - MultiStep
+    - TextInput
+
 ## 0.1.1
 
 ### Patch Changes
