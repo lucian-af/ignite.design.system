@@ -1,4 +1,4 @@
-import { Box, Text, TextInput, TextInputProps } from '@laf-ui/react'
+import { Box, Text, TextInput, TextInputProps } from '@laf.ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

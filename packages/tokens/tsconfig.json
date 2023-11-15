@@ -1,5 +1,5 @@
 {
-  "extends": "@laf-ui/ts-config/base.json",
+  "extends": "@laf.ui/ts-config/base.json",
   "include": [
     "src"
   ]

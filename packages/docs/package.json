@@ -1,5 +1,5 @@
 {
-  "name": "@laf-ui/docs",
+  "name": "@laf.ui/docs",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -9,10 +9,10 @@
     "deploy": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@laf-ui/eslint-config": "*",
-    "@laf-ui/react": "*",
-    "@laf-ui/tokens": "*",
-    "@laf-ui/ts-config": "*",
+    "@laf.ui/eslint-config": "*",
+    "@laf.ui/react": "*",
+    "@laf.ui/tokens": "*",
+    "@laf.ui/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

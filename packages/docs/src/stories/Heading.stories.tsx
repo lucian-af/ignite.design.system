@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@laf-ui/react'
+import { Heading, HeadingProps } from '@laf.ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

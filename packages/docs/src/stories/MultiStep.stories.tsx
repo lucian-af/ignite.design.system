@@ -1,4 +1,4 @@
-import { Box, MultiStep, MultiStepProps } from '@laf-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@laf.ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

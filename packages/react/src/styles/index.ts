@@ -6,7 +6,7 @@ import {
   lineHeights,
   radius,
   space,
-} from '@laf-ui/tokens'
+} from '@laf.ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
