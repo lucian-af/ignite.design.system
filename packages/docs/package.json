@@ -2,6 +2,7 @@
   "name": "@laf.ui/docs",
   "version": "0.0.0",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
