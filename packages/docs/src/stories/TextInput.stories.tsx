@@ -14,7 +14,7 @@ export default {
             display: 'flex',
             flexDirection: 'column',
             gap: '$2',
-            width: '450px',
+            width: '100%',
           }}
         >
           <Text size="sm">E-mail</Text>

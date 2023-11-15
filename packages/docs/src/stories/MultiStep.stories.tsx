@@ -12,11 +12,11 @@ export default {
     (Story) => {
       return (
         <Box
-          as="label"
           css={{
             display: 'flex',
             flexDirection: 'column',
             gap: '$2',
+            width: '100%',
           }}
         >
           {Story()}

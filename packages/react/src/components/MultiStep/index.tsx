@@ -6,10 +6,16 @@ export interface MultiStepProps {
 }
 
 export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
+  function validateCurrentStep() {
+    if (currentStep < 0) return 0
+    if (currentStep > size) return size
+    return currentStep
+  }
+
   return (
     <MultiStepContainer>
       <Label>
-        Passo {currentStep} de {size}
+        Passo {validateCurrentStep()} de {size}
       </Label>
 
       <Steps css={{ '--steps-size': size }}>
