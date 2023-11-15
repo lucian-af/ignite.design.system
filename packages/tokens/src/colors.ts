@@ -11,10 +11,9 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
-  gold300: '#FBBF24',
-  gold500: '#EAB308',
-  gold600: '#CA8A04',
-
-  orange700: '#B45309',
-  orange900: '#78350F',
+  amber300: '#FBBF24',
+  amber500: '#EAB308',
+  amber600: '#CA8A04',
+  amber700: '#B45309',
+  amber900: '#78350F',
 } as const
