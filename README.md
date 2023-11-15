@@ -11,6 +11,8 @@
 - [X] Checkbox
 - [X] Avatar
 - [X] MultiStep
+- [X] Tooltip
+- [ ] Toast
 
 ## Setup
 
@@ -25,6 +27,6 @@
 4. Se tudo estiver correto o storybook irá carregar em seu navegador em **_localhost:6006_**
 
 ## Exemplo
-Link: [Design System](https://lucian-af.github.io/ignite.design.system)
+Link: [Design System](https://lucian-af.github.io/laf.design.system)
 
 ![image](https://github.com/lucian-af/ignite.design.system/assets/65927348/549b3ee5-4c1e-4e21-babe-4a6949cefd1e)
