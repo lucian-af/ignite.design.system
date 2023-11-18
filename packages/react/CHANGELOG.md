@@ -1,5 +1,11 @@
 # @laf.ui/react
 
+## 0.3.0
+
+### Minor Changes
+
+- Adiciona componente Toast
+
 ## 0.2.0
 
 ### Minor Changes
