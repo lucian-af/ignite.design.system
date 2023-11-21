@@ -1,5 +1,11 @@
 # @laf.ui/tokens
 
+## 0.2.1
+
+### Patch Changes
+
+- Fix: corrige media queries
+
 ## 0.2.0
 
 ### Minor Changes

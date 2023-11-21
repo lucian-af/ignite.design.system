@@ -1,7 +1,6 @@
 export const medias = {
-  xs: '(min-width: 0px)',
-  sm: '(min-width: 576px)',
-  md: '(min-width: 768px)',
-  lg: '(min-width: 992px)',
-  xl: '(min-width: 1200px)',
+  sm: '(max-width: 767px)',
+  md: '(min-width: 768px) and (max-width: 992px)',
+  lg: '(min-width: 993px) and (max-width: 1368px)',
+  xl: '(min-width: 1369px)',
 } as const
