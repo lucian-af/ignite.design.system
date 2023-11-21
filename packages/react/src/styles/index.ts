@@ -6,6 +6,7 @@ import {
   lineHeights,
   radius,
   space,
+  medias,
 } from '@laf.ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
@@ -33,4 +34,5 @@ export const {
     radii: radius,
     space,
   },
+  media: medias,
 })

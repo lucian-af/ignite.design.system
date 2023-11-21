@@ -1,5 +1,11 @@
 # @laf.ui/react
 
+## 0.4.0
+
+### Minor Changes
+
+- Adiciona tokens para media queries
+
 ## 0.3.0
 
 ### Minor Changes
