@@ -17,6 +17,12 @@ export default {
             flexDirection: 'column',
             gap: '$2',
             width: '100%',
+            '@xs': {
+              width: 'calc(100vw - (100vw - 200px) / 2)',
+            },
+            '@xl': {
+              width: '1200px',
+            },
           }}
         >
           {Story()}
