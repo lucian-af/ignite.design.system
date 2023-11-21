@@ -1,5 +1,11 @@
 # @laf.ui/react
 
+## 0.4.1
+
+### Patch Changes
+
+- Fix: corrige media queries
+
 ## 0.4.0
 
 ### Minor Changes
