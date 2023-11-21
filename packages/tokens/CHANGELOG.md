@@ -1,5 +1,11 @@
 # @laf.ui/tokens
 
+## 0.2.0
+
+### Minor Changes
+
+- Adiciona tokens para media queries
+
 ## 0.1.0
 
 ### Minor Changes
