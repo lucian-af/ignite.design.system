@@ -5,6 +5,15 @@ export default {
   title: 'Form/Text Input',
   component: TextInput,
   args: {},
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'select',
+      },
+      defaultValue: 'md',
+    },
+  },
   decorators: [
     (Story) => {
       return (
