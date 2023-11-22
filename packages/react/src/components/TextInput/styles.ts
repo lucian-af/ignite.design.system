@@ -9,7 +9,7 @@ export const TextInputContainer = styled('div', {
   alignItems: 'center',
 
   variants: {
-    test: {
+    size: {
       sm: {
         padding: '$2 $3',
       },
@@ -29,7 +29,7 @@ export const TextInputContainer = styled('div', {
   },
 
   defaultVariants: {
-    test: 'md',
+    size: 'md',
   },
 })
 
@@ -54,6 +54,6 @@ export const Input = styled('input', {
   },
 
   '&::placeholder': {
-    color: '$gray400',
+    color: '$gray500',
   },
 })
