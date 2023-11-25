@@ -1,0 +1,2 @@
+import{A as t}from"./index.9f091259.js";import"./index.8f2544a5.js";import"./iframe.8f35b161.js";import"./index.e02f2299.js";import"./jsx-runtime.c1619f34.js";const i={title:"Data display/Avatar",component:t,args:{src:"https://github.com/lucian-af.png",alt:"Lucian AF"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},n=["Default","WithFalback"];export{p as Default,e as WithFalback,n as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories.f93a7af0.js.map
