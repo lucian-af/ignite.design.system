@@ -1,5 +1,11 @@
 # @laf.ui/react
 
+## 0.4.3
+
+### Patch Changes
+
+- Fix: corrige estilo e propriedades padrão do componente Toast
+
 ## 0.4.2
 
 ### Patch Changes

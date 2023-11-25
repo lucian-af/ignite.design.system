@@ -10,11 +10,11 @@ import {
 import { X } from 'phosphor-react'
 
 export interface ToastProps extends ComponentProps<typeof ToastRoot> {
-  children: ReactElement
+  children?: ReactElement
   title: string
   content: string
-  hasClose: boolean
-  position: 'left-top' | 'left-bottom' | 'right-bottom' | 'right-top'
+  hasClose?: boolean
+  position?: 'left-top' | 'left-bottom' | 'right-bottom' | 'right-top'
 }
 
 export const Toast = ({
@@ -22,12 +22,12 @@ export const Toast = ({
   content,
   children,
   hasClose = true,
-  position,
+  position = 'right-bottom',
   ...props
 }: ToastProps) => (
   <ToastPrimitive.Provider>
     <ToastRoot {...props} type="foreground">
-      {title && <ToastTitle>{title}</ToastTitle>}
+      <ToastTitle>{title}</ToastTitle>
       <ToastDescription>{content}</ToastDescription>
       {children && (
         <ToastPrimitive.Action altText="" asChild>

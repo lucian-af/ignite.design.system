@@ -22,7 +22,7 @@ export const ToastClose = styled(ToastPrimitive.Close, {
   backgroundColor: 'transparent',
   position: 'absolute',
   top: '$2',
-  right: '$4',
+  right: '$3',
   cursor: 'pointer',
   lineHeight: 0,
 })
